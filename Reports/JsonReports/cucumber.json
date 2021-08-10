@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-02T10:38:42.454Z",
+        "line": 3,
+        "name": "Test the valid login",
+        "description": "",
+        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5343000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on loginPage",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4626000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should land on home page",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps.user_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-02T10:38:52.735Z",
+        "line": 11,
+        "name": "Test the valid login1",
+        "description": "",
+        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4979000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on loginPage",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters username and password",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4606000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on login button",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should land on home page",
+            "match": {
+              "location": "com.stepDefinition.LoginSteps.user_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the login functionality of OrangeHRM",
+    "description": "",
+    "id": "test-the-login-functionality-of-orangehrm",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginFeature.feature",
+    "tags": []
+  }
+]
